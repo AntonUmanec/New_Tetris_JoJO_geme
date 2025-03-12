@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoJo Tetris Game</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: #35424a;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .game-info {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .screenshots {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .screenshot {
+            width: 300px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+        .download-btn {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .download-btn:hover {
+            background: #45a049;
+        }
+        footer {
+            background: #35424a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>JoJo Tetris Game</h1>
+            <p>A Tetris game with custom textures and level selection</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="game-info">
+            <h2>About the Game</h2>
+            <p>JoJo Tetris is a fun and engaging version of the classic Tetris game, featuring custom textures and a level selection system. The game is built using Python with the Kivy framework, making it compatible with Android devices.</p>
+            
+            <h3>Features:</h3>
+            <ul>
+                <li>Custom textures for all Tetris shapes</li>
+                <li>Level selection (1-10) affecting game speed</li>
+                <li>Classic Tetris gameplay mechanics</li>
+                <li>Score tracking and line clearing</li>
+                <li>Mobile-friendly controls</li>
+            </ul>
+
+            <h3>How to Play:</h3>
+            <p><strong>Controls:</strong></p>
+            <ul>
+                <li>Left/Right Arrow: Move piece horizontally</li>
+                <li>Down Arrow: Move piece down faster</li>
+                <li>Up Arrow: Rotate piece</li>
+                <li>Space: Drop piece to bottom</li>
+                <li>R: Return to level selection (after game over)</li>
+            </ul>
+
+            <a href="https://github.com/AntonUmanec/New_Tetris_JoJO_geme/releases/download/v1.0/tetris-1.0-debug.apk" class="download-btn">Download APK</a>
+            <p><small>Note: You'll need to allow installation from unknown sources on your Android device.</small></p>
+        </section>
+
+        <section>
+            <h2>Source Code</h2>
+            <p>The complete source code for this game is available on GitHub:</p>
+            <a href="https://github.com/AntonUmanec/New_Tetris_JoJO_geme" target="_blank">View on GitHub</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 AntonUmanec - JoJo Tetris Game</p>
+    </footer>
+</body>
+</html>
